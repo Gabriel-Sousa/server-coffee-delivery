@@ -1,10 +1,17 @@
-const express = require('express');
-const server = express()
+import bodyParser from "body-parser";
+import express from "express";
 
-const data = require('./db.json')
+const app = express();
+const port = process.env.PORT || 3333;
 
-server.get('/coffee', (req, res) => {
-  return res.json(data);
-})
+app.use(bodyParser.json());
+app.use(bodyParser.raw({ type: "application/vnd.custom-type" }));
+app.use(bodyParser.text({ type: "text/html" }));
 
-server.listen(3333, () => { console.log('Server running') })
+app.get("/", async (req, res) => {
+  res.json({ Hello: "World" });
+});
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
+});
