@@ -9,6 +9,7 @@ app.use(bodyParser.raw({ type: "application/vnd.custom-type" }));
 app.use(bodyParser.text({ type: "text/html" }));
 
 app.get("/coffee", async (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
   res.json({
     "coffee": [
       {
