@@ -10,8 +10,8 @@ app.use(bodyParser.text({ type: "text/html" }));
 
 app.get("/coffee", async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.json({
-    "coffee": [
+  res.json(
+    [
       {
         "id": 1,
         "title": "Expresso Tradicional",
@@ -177,7 +177,7 @@ app.get("/coffee", async (req, res) => {
         "imgUrl": "./src/assets/coffee/irlandes.svg"
       }
     ]
-  });
+  );
 });
 
 app.listen(port, () => {
