@@ -21,7 +21,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 3.50,
         "stock": 5,
-        "imgUrl": "./src/assets/coffee/expresso.svg"
+        "imgUrl": "/assets/coffee/expresso.svg"
       },
       {
         "id": 2,
@@ -32,7 +32,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 9.50,
         "stock": 3,
-        "imgUrl": "./src/assets/coffee/americano.svg"
+        "imgUrl": "/assets/coffee/americano.svg"
       },
       {
         "id": 3,
@@ -43,7 +43,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 2.99,
         "stock": 6,
-        "imgUrl": "./src/assets/coffee/expresso_cremoso.svg"
+        "imgUrl": "/assets/coffee/expresso_cremoso.svg"
       },
       {
         "id": 4,
@@ -55,7 +55,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 7.99,
         "stock": 3,
-        "imgUrl": "./src/assets/coffee/cafe_gelado.svg"
+        "imgUrl": "/assets/coffee/cafe_gelado.svg"
       },
       {
         "id": 5,
@@ -67,7 +67,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 3.99,
         "stock": 10,
-        "imgUrl": "./src/assets/coffee/cafe_com_leite.svg"
+        "imgUrl": "/assets/coffee/cafe_com_leite.svg"
       },
       {
         "id": 6,
@@ -79,7 +79,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 9.90,
         "stock": 3,
-        "imgUrl": "./src/assets/coffee/latte.svg"
+        "imgUrl": "/assets/coffee/latte.svg"
       },
       {
         "id": 7,
@@ -91,7 +91,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 9.90,
         "stock": 10,
-        "imgUrl": "./src/assets/coffee/capuccino.svg"
+        "imgUrl": "/assets/coffee/capuccino.svg"
       },
       {
         "id": 8,
@@ -103,7 +103,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 9.90,
         "stock": 4,
-        "imgUrl": "./src/assets/coffee/macchiato.svg"
+        "imgUrl": "/assets/coffee/macchiato.svg"
       },
       {
         "id": 9,
@@ -115,7 +115,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 9.90,
         "stock": 2,
-        "imgUrl": "./src/assets/coffee/mochaccino.svg"
+        "imgUrl": "/assets/coffee/mochaccino.svg"
       },
       {
         "id": 10,
@@ -127,7 +127,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 9.90,
         "stock": 1,
-        "imgUrl": "./src/assets/coffee/chocolate_quente.svg"
+        "imgUrl": "/assets/coffee/chocolate_quente.svg"
       },
       {
         "id": 11,
@@ -140,7 +140,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 9.90,
         "stock": 6,
-        "imgUrl": "./src/assets/coffee/cubano.svg"
+        "imgUrl": "/assets/coffee/cubano.svg"
       },
       {
         "id": 12,
@@ -151,7 +151,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 9.90,
         "stock": 12,
-        "imgUrl": "./src/assets/coffee/havaiano.svg"
+        "imgUrl": "/assets/coffee/havaiano.svg"
       },
       {
         "id": 13,
@@ -162,7 +162,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 9.90,
         "stock": 9,
-        "imgUrl": "./src/assets/coffee/arabe.svg"
+        "imgUrl": "/assets/coffee/arabe.svg"
       },
       {
         "id": 14,
@@ -174,7 +174,7 @@ app.get("/coffee", async (req, res) => {
         ],
         "price": 9.90,
         "stock": 8,
-        "imgUrl": "./src/assets/coffee/irlandes.svg"
+        "imgUrl": "/assets/coffee/irlandes.svg"
       }
     ]
   );
